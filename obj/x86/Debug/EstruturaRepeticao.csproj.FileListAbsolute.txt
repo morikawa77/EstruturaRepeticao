@@ -1,0 +1,5 @@
+/Users/reginaldomorikawa/Documents/Curso Senac Mobile/Projetos/EstruturaRepeticao/bin/Debug/EstruturaRepeticao.exe
+/Users/reginaldomorikawa/Documents/Curso Senac Mobile/Projetos/EstruturaRepeticao/bin/Debug/EstruturaRepeticao.pdb
+/Users/reginaldomorikawa/Documents/Curso Senac Mobile/Projetos/EstruturaRepeticao/obj/x86/Debug/EstruturaRepeticao.csproj.CoreCompileInputs.cache
+/Users/reginaldomorikawa/Documents/Curso Senac Mobile/Projetos/EstruturaRepeticao/obj/x86/Debug/EstruturaRepeticao.exe
+/Users/reginaldomorikawa/Documents/Curso Senac Mobile/Projetos/EstruturaRepeticao/obj/x86/Debug/EstruturaRepeticao.pdb
