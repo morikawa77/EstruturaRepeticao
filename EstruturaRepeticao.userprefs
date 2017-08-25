@@ -1,19 +1,8 @@
 ﻿<Properties StartupConfiguration="{EE404DD7-ADF0-4B62-BA22-19DF7572C298}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="245" Column="6" />
+      <File FileName="Program.cs" Line="246" Column="76" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="EstruturaRepeticao" expanded="True">
-            <Node name="EstruturaRepeticao" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.ItemProperties.EstruturaRepeticao PreferredExecutionTarget="MonoDevelop.Default" />

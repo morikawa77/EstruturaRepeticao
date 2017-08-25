@@ -129,7 +129,7 @@ namespace EstruturaRepeticao
 				Console.WriteLine("Digite o seu mês de nascimento: ");
 				mes = Convert.ToInt32(Console.ReadLine());
 			};
-			Console.ReadLine();
+            //Console.ReadLine(); Comentando este comando o bug desaparece :)
 			//na primeira entrada, se for diferente da condição ele começa o loop de novo - entrando no loop aceita qualquer 3 entradas e fecha
 		}
 
