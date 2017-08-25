@@ -15,7 +15,11 @@ namespace EstruturaRepeticao
             //exercicio4();
             //exemploWhile();
             //exercicio5();
-            exercicio6();
+            //exercicio6();
+            //exercicio7();
+            //exercicio8();
+            //exercicio9();
+            exercicio10();
             Console.ReadKey();
         }
 
@@ -166,5 +170,83 @@ namespace EstruturaRepeticao
             Console.WriteLine("A multiplicação dos 15 números é: {0}", produto);
         }
 
-    }
+        static void exercicio7(){
+			int num = 0, soma = 0, produto = 1;
+            // soma = 0 nao altera a soma, produto = 1 pq 0 altera o produto
+			Console.WriteLine("Digite 10 números: ");
+
+			for (int x = 1; x < 11; x++)
+            {
+				Console.WriteLine("Digite o {0}° número: ", x);
+				num = Convert.ToInt32(Console.ReadLine());
+                if (num>20)
+				soma += num;
+                if (num<10)
+				produto *= num;
+			}
+			Console.WriteLine("A soma dos números digitados com valor superior que 20 é: {0}", soma);
+			Console.WriteLine("A multiplicação dos números digitados com valor inferior que 10 é: {0}", produto);
+        }
+
+        static void exercicio8(){
+			int numMax, a = 0, b = 1, c = 0;
+
+            Console.WriteLine("Digite um número maior que 20: ");
+            numMax = Convert.ToInt32(Console.ReadLine());
+            if (numMax <20)
+                Console.WriteLine("Digite um número maior que 20: ");
+            else {
+                Console.WriteLine("{0}", a);
+                Console.WriteLine("{0}", b);
+				for (int i = 2; i <= numMax; i++)
+				{
+					c = a + b;
+                    Console.WriteLine(" {0}", c);
+					a = b;
+					b = c;
+				}
+            }
+        }
+
+        static void exercicio9(){
+            long num = 0, res = 1;
+            // long vai sem bugar até o 20
+
+			Console.WriteLine("Digite um número que será fatorado: ");
+			num = Convert.ToInt32(Console.ReadLine());
+
+            if (num == 0)
+            Console.WriteLine("1");
+            else {
+				while (num != 1)
+				{
+					res = res * num;
+					num--;
+				}
+
+				Console.WriteLine(res);
+            }
+        }
+
+        static void exercicio10(){
+            int num = 0;
+
+			Console.WriteLine("Digite um número máximo para a sequência: ");
+			num = Convert.ToInt32(Console.ReadLine());
+            //1, 4, 9, 16, 25 .... => X = N2
+            if(num <= 1){
+				Console.WriteLine(1);
+            }else{
+				Console.Write("1, ");
+                for (double i = 2, j=2; i*i <= num; i++)
+				{
+                    j = Math.Pow(i, 2);
+                    Console.Write("{0}, ",j);  
+				}
+                Console.Write("\b\b"); //apaga o último espaço e vírgula :)
+            }
+
+		}
+	
+	}
 }
